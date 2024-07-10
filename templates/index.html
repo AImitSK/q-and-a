@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <title>PDF Q&A</title>
+    <link rel="stylesheet" href="/static/css/styles.css">
+</head>
+<body>
+    <h1>Upload PDF and Ask Questions</h1>
+    <form id="uploadForm" enctype="multipart/form-data">
+        <input type="file" id="pdfFile" name="pdfFile" accept="application/pdf" required />
+        <button type="submit">Upload PDF</button>
+    </form>
+    <div id="qaSection" style="display:none;">
+        <h2>Ask a Question</h2>
+        <input type="text" id="questionInput" placeholder="Enter your question here" />
+        <button id="askButton">Ask</button>
+        <div id="answerSection">
+            <h3>Answer:</h3>
+            <p id="answer"></p>
+        </div>
+    </div>
+    <script src="/static/js/scripts.js"></script>
+</body>
+</html>

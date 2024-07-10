@@ -1,0 +1,16 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+#uploadForm {
+    margin-bottom: 20px;
+}
+
+#qaSection {
+    margin-top: 20px;
+}
+
+#answerSection {
+    margin-top: 20px;
+}
